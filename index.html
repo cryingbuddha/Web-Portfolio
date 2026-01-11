@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Khatri - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <div class="profile-section">
+            <img src="assets/avatar.png" alt="Ayush Khatri" class="profile-pic">
+            <h2>Ayush Khatri</h2>
+        </div>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <span class="label">Email</span>
+                <p>ayushkhatri107@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <span class="label">Phone</span>
+                <p>+91 7060155107</p>
+            </div>
+            <div class="info-item">
+                <span class="label">Location</span>
+                <p>Dehradun, India</p>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/cryingbuddha" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ayush-khatri-466518252/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://leetcode.com/yourprofile" target="_blank" title="LeetCode">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="assets/resume.pdf" download title="Resume">
+                <i class="fas fa-file-pdf"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+        </nav>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h1>About Me</h1>
+            <div class="section-line"></div>
+            <p class="about-text">
+                Proficient in C++, DSA, Javascript, OOP, DBMS, and SQL. Working knowledge of Python and Machine Learning. 
+                Motivated learner with a strong interest in problem solving and building efficient and scalable solutions.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h1>My Skills</h1>
+            <div class="section-line"></div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <p>DSA</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cube"></i>
+                    <p>OOP</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <p>C++</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h1>Education</h1>
+            <div class="section-line"></div>
+            
+            <div class="education-item">
+                <div class="edu-year">
+                    <i class="fas fa-circle"></i>
+                    <span>Jun 2022 - Present</span>
+                </div>
+                <h3>Bachelor of Technology in CSE</h3>
+                <p class="institution">Graphic Era Hill University</p>
+            </div>
+
+            <div class="education-item">
+                <div class="edu-year">
+                    <i class="fas fa-circle"></i>
+                    <span>Jun 2022</span>
+                </div>
+                <h3>Class XII</h3>
+                <p class="institution">The Horizon School</p>
+            </div>
+
+            <div class="education-item">
+                <div class="edu-year">
+                    <i class="fas fa-circle"></i>
+                    <span>Jun 2020</span>
+                </div>
+                <h3>Class X</h3>
+                <p class="institution">The Horizon School</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <h1>Portfolio</h1>
+            <div class="section-line"></div>
+            
+            <div class="portfolio-grid">
+                
+                <div class="project-card" onclick="window.open('https://github.com/springboard5678x/Dynamic-Text-Analysis-System/tree/ayush_khatri_branch', '_blank')" style="cursor: pointer;">
+                    <div class="project-image">
+                        <img src="assets/nlp.png" alt="ss">
+                    </div>
+                    <h3>NLP Intern | Infosys Springboard</h3>
+                    <p>Developed an end-to-end NLP platform processing user documents via a Flask RESTful API and 5 statistical/ML techniques.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>NLP</span>
+                        <span>ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="window.open('https://github.com/cryingbuddha/high_risk_fire_prediction', '_blank')" style="cursor: pointer;">
+                    <div class="project-image">
+                        <img src="assets/fire.png" alt="Fire risk">
+                    </div>
+                    <h3>Uttarakhand Fire Monitoring System</h3>
+                    <p>Real-time wildfire detection and risk assessment platform using NASA satellite data and machine learning.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>NASA API</span>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="window.open('https://github.com/cryingbuddha/chess_oops', '_blank')" style="cursor: pointer;">
+                    <div class="project-image">
+                        <img src="assets/chess.png" alt="Chess Game">
+                    </div>
+                    <h3>Chess Game - OOP</h3>
+                    <p>Developed an end-to-end Chess game in C++ demonstrating core OOP principles including inheritance, 
+                    polymorphism, encapsulation, and abstraction.</p>
+                    <div class="tech-tags">
+                        <span>C++</span>
+                        <span>OOP</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/personality.webp" alt="Personality classifier">
+                    </div>
+                    <h3>Personality Classification System</h3>
+                    <p>Developed ML system using K-Means clustering to classify 5 personality types based on Big Five 
+                    traits model with Flask web application.</p>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>ML</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Ayush Khatri. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
